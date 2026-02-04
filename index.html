@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keshava Elite Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sample.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">
+        <img src="KEP LOGO.png" alt="Logo">
+        <span>KESHAVA ELITE PROJECTS</span>
+      </div>
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Building India’s Next Generation of Engineers & Innovators</h1>
+  <p>
+    Empowering students through Robotics, AI & STEM Excellence.
+  </p>
+  <div class="buttons">
+    <a href="#services">Explore Programs</a>
+    <a href="#contact">Partner With Us</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>
+    Keshava Elite Projects is an educational technology organization specializing
+    in STEM Robotics Labs for Schools and Center of Excellence (CoE) Programs for Colleges.
+  </p>
+  <p>
+    We bridge the gap between classroom education and industry expectations through
+    hands-on learning, innovation, and real-world projects.
+  </p>
+</section>
+
+<!--Who We Are-->
+<section id="who-we-are" class="who-we-are">
+    <div class="container">
+  
+      <h2>WHO WE ARE</h2>
+      <p class="subtitle">
+        Bringing world-class robotics and AI education to every student.
+      </p>
+  
+      <div class="who-content">
+  
+        <!-- Left Column -->
+        <div class="who-box">
+          <h3>About Snapshot</h3>
+          <p>
+            Keshava Elite Projects is an ed-tech innovation organization
+            specializing in STEM Robotics Labs for Schools and Center of
+            Excellence (CoE) Programs for Colleges.
+          </p>
+  
+          <p>
+            We design ecosystems where students gain hands-on experience
+            in AI, IoT, and Robotics.
+          </p>
+  
+          <h4>Vision</h4>
+          <p>
+            To create India’s most impactful Robotics & STEM innovation ecosystem.
+          </p>
+        </div>
+  
+        <!-- Right Column -->
+        <div class="who-box">
+          <h3>Our Philosophy</h3>
+          <ul class="philosophy-list">
+            <li>Learning by Building</li>
+            <li>Innovation over Memorization</li>
+            <li>Projects over Theory</li>
+            <li>Industry over Outdated Curriculum</li>
+            <li>Access for Every Student</li>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE SECTION -->
+<section class="quote-section">
+  <p class="quote-text">
+    “Technology is shaping the future faster than ever. At Keshava Elite Projects,
+    our mission is to ensure every student — regardless of background —
+    gets the opportunity to learn, build, and innovate with Robotics and AI.”
+  </p>
+
+  <p class="quote-author">
+    — Rakesh Veerapaneni<br>
+    <span>Founder, Keshava Elite Projects</span>
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services-section">
+    <h2 class="section-title">OUR SERVICES</h2>
+  
+    <div class="services-container">
+  
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="icon">🤖</div>
+        <h3>STEM Robotics Labs</h3>
+        <p>Transforming K-12 classrooms into innovation labs.</p>
+        <ul>
+          <li>Complete Lab Setup</li>
+          <li>Robotics & AI Tools</li>
+          <li>Teacher Training</li>
+          <li>Creativity & Problem Solving</li>
+        </ul>
+      </div>
+  
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="icon">🏛️</div>
+        <h3>Center of Excellence</h3>
+        <p>Advanced innovation hubs for colleges.</p>
+        <ul>
+          <li>Robotics & AI Labs</li>
+          <li>IoT & Industry 4.0</li>
+          <li>Research & Development</li>
+          <li>Startup Incubation</li>
+        </ul>
+      </div>
+  
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="icon">🚀</div>
+        <h3>Student Innovation</h3>
+        <p>Beyond the classroom learning events.</p>
+        <ul>
+          <li>Hackathons & Bootcamps</li>
+          <li>Robotics Competitions</li>
+          <li>Research Guidance</li>
+          <li>Product Development</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+<!-- COURSES -->
+<section id="courses" class="courses-section">
+    
+  
+    <section class="courses-section" id="mainSection">
+
+      <h2>PROFESSIONAL CERTIFICATION COURSES</h2>
+      <p class="subtitle">Industry-Aligned Training with Placement Assistance</p>
+    
+      <!-- COURSE HOME -->
+      <div id="courseHome">
+    
+        <div class="category-boxes">
+          <div class="category it">💻 Information Technology</div>
+          <div class="category core">⚙️ Core Engineering</div>
+          <div class="category business">📊 Business & Mgmt</div>
+        </div>
+    
+        <div class="course-lists">
+          <ul>
+            <li onclick="openCourse('fullstack')">Full-Stack Development</li>
+            <li onclick="openCourse('data')">Data Science & Analytics</li>
+            <li onclick="openCourse('ai')">Artificial Intelligence & ML</li>
+            <li onclick="openCourse('cyber')">Cybersecurity</li>
+            <li onclick="openCourse('cloud')">Cloud Computing</li>
+          </ul>
+    
+          <ul>
+            <li onclick="openCourse('robotics')">AI Robotics</li>
+            <li onclick="openCourse('iot')">Internet of Things (IoT)</li>
+            <li onclick="openCourse('embedded')">Embedded Systems</li>
+            <li onclick="openCourse('industry')">Industry 4.0</li>
+            <li onclick="openCourse('drone')">Drone & Aerial Robotics</li>
+          </ul>
+    
+          <ul>
+            <li onclick="openCourse('businessgrowth')">Business Growth Specialist</li>
+            <li onclick="openCourse('stock')">Stock Market & Investment</li>
+            <li onclick="openCourse('powerbi')">Power BI</li>
+            <li onclick="openCourse('digital')">Digital Marketing</li>
+            <li onclick="openCourse('entrepreneur')">Entrepreneurship</li>
+          </ul>
+        </div>
+    
+      </div>
+    
+      <!-- COURSE DETAILS -->
+      <div class="course-details" id="courseDetails">
+        <span class="back-btn" onclick="goBack()">← Back to Courses</span>
+        <div id="detailsContent"></div>
+      </div>
+    
+    </section>
+
+
+<!-- IMPACT -->
+<section id="impact" class="impact-section">
+
+    <h2 class="impact-title">OUR IMPACT</h2>
+  
+    <div class="impact-stats">
+  
+      <div class="impact-box">
+        <h3>5,000+</h3>
+        <p>Students Trained</p>
+      </div>
+  
+      <div class="impact-box">
+        <h3>25+</h3>
+        <p>Partner Institutions</p>
+      </div>
+  
+      <div class="impact-box">
+        <h3>NEP 2020</h3>
+        <p>Aligned Programs</p>
+      </div>
+  
+    </div>
+  
+    <div class="impact-mission">
+      <h4>Social Mission</h4>
+      <p>
+        We are dedicated to bridging the rural-urban digital divide and
+        empowering school students with the same tech skills used in top-tier institutions.
+      </p>
+    </div>
+  
+  </section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+    <h2 class="contact-title">CONTACT US</h2>
+  
+    <div class="contact-container">
+  
+      <!-- LEFT SIDE -->
+      <div class="contact-left">
+        <h3>Get in Touch</h3>
+        <p>
+          Whether you are a school looking for a lab, a college needing a CoE,
+          or a student wanting to learn, we are here to help.
+        </p>
+  
+        <div class="contact-item">
+          <strong>📍 Location</strong>
+          <p>Andhra Pradesh, India</p>
+        </div>
+  
+        <div class="contact-item">
+          <strong>📧 Email</strong>
+          <p>info@keshavaeliteprojects.com</p>
+        </div>
+  
+        <div class="contact-item">
+          <strong>🌐 Website</strong>
+          <p>www.keshavaeliteprojects.com</p>
+        </div>
+      </div>
+  
+      <!-- RIGHT SIDE -->
+      <div class="contact-right">
+        <h3>Send a Message</h3>
+  
+        <form onsubmit="return validateForm()">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="text" placeholder="Phone Number">
+          <textarea placeholder="How can we help you?" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+  
+    </div>
+  
+  </section>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+
+    <div class="footer-container">
+  
+      <!-- Left -->
+      <div class="footer-about">
+        <h3>KESHAVA ELITE PROJECTS</h3>
+        <p>
+          Empowering Future Innovators Through
+          Robotics & STEM Excellence.
+        </p>
+      </div>
+  
+      <!-- Middle -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Right -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/keshava-elite-projects/" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="footer-bottom">
+      © 2026 Keshava Elite Projects Pvt. Ltd. All Rights Reserved.
+    </div>
+  
+  </footer>
+<script src="sample.js"></script>
+</body>
+</html>
